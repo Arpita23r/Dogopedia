@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #f7ca7b;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #search-bar {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #suggestions {
+    margin-top: 10px;
+  }
+  
+  .suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    background: #fff;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .suggestion-item:hover {
+    background: #f0f0f0;
+  }
+  
+  .result-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  footer{
+    text-align: center;
+  }
